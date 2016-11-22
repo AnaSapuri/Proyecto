@@ -1,0 +1,73 @@
+/* GENERAL */
+
+body, html {
+	font-size: 16px;
+}
+
+// Section One
+.secone {
+	max-width: 1000px;
+	margin: 20px auto;
+	color:#394EFF;
+	.icon-folder {
+		font-size: 10em;
+	}
+	hr {
+		border-color: #394EFF;
+		margin-top: 30px;
+	}
+	&Tittle {
+		font-size: 2.12em;
+	}
+	&Text {
+		font-size: 1.12em;
+		display: flex;
+		margin-top:-30px;
+		p {
+			width: 60%;
+			&:nth-child(2) {
+				margin-left: 40px;
+			}
+		}
+	}
+	&Fin {
+		display: flex;
+		&text {
+			margin-left: 100px;
+			h3 {
+				font-size:1.25em;
+			}
+			p {
+				font-size: 1.06em;
+			}
+		}
+	}
+}
+
+
+// Section Two
+.sectwo {
+	background-color:#394EFF;
+}
+
+// Section Three
+.sectth {
+	max-width:1245px;
+	margin: 0 auto;
+}
+
+// Section Four
+.secFo {
+	background-color:#394EFF;
+}
+
+// Section Five
+.secFiv {
+	max-width:1245px;
+	margin: 0 auto;
+}
+
+// Footer
+.footer {
+	background-color:#394EFF;
+}
