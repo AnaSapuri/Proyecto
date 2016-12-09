@@ -81,17 +81,19 @@ body, html {
 
 // Section Three
 .sectth {
-	max-width:1245px;
+	max-width:1000px;
 	margin: 60px auto;
 	display:flex;
 	justify-content:space-between;
 	color: #FFFFFF;
+	height: 100%;
 	&Image {
 		width: 63%;
 	}
 	&Text {
 		background-color:#FFA8CF;
 		padding: 30px;
+		width: 38%;
 		h3 {
 			font-weight: lighter;
 		}
@@ -119,15 +121,101 @@ body, html {
 // Section Four
 .secFo {
 	background-color:#394EFF;
+	color:#FFFFFF;
+	&Wrapper {
+		max-width:1245px;
+		margin: 0 auto;
+		padding:60px;
+		&text {
+			hr {
+				border-color: #FFFFFF;
+			}
+			h2 {
+				font-size: 2em;
+			}
+		}
+		&form {
+			width: 100%;
+		}
+	}
 }
 
 // Section Five
 .secFiv {
 	max-width:1245px;
 	margin: 0 auto;
+	color:#394EFF;
+	padding-bottom:60px;
+	hr {
+			border-color: #394EFF;
+		}
+	&tittle {
+		padding-top: 60px;
+		
+		h2 {
+			font-size: 2em;
+		}
+	}
+	&qu .icon-mas {
+		float: right;
+		padding-right:10px;
+		padding-top:5px;
+		font-size: 0.81em;
+	}
 }
 
 // Footer
 .footer {
 	background-color:#394EFF;
+	color:#FFFFFF;
+	&Wrapper {
+		max-width:1245px;
+		margin: 0 auto;
+		padding: 60px 0;
+		display: flex;
+		justify-content: space-between;
+		&logo {
+			font-size: 2em;
+			padding-right:40px;
+			.icon-folder{
+				font-size: 4em;
+				color: #FFFFFF;
+			}
+		}
+		&Cols {
+			font-size: 1.12em;
+			ul {
+				list-style: none;
+				padding:0;
+				margin: 0;
+				font-weight: lighter;
+			}
+			p {
+				font-weight: lighter;
+			}
+			form {
+				border: 1px #FFFFFF solid;
+				width: 100%;
+				input {
+					background-color: #0051FA;
+					border:none;
+					color: #6494F8;
+					font-size:0.75em;
+					width: 40%;
+					text-align: center;
+				}
+				.button {
+					width: 40%;
+					font-size: 1.1em;
+					text-align: center;
+					background-color: transparent;
+					border:none;
+					border-left: 1px #FFFFFF solid;
+					color: #FFFFFF;
+					padding: 15px 60px;
+					font-weight: bolder;
+				}
+			}
+		}
+	}
 }
