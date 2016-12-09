@@ -49,12 +49,40 @@ body, html {
 // Section Two
 .sectwo {
 	background-color:#394EFF;
+	color:#FFFFFF;
+	font-size:1.06em;
+	&Wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 20px 0;
+		&Text {
+			display: flex;
+			justify-content: space-between;
+		}
+		&Counter {
+			display: flex;
+			justify-content: space-around;
+			border: 1px #FFFFFF solid;
+			font-size: 8em;
+			.number {
+				padding: 20px 30px;
+				&Border {
+					border-left: 1px #FFFFFF solid;
+					padding: 20px 30px;
+				}
+			}
+		}
+		&Center {
+			text-align: center;
+			padding-bottom: 25px;
+		}
+	}
 }
 
 // Section Three
 .sectth {
 	max-width:1245px;
-	margin: 0 auto;
+	margin: 60px auto;
 }
 
 // Section Four
